@@ -1,0 +1,19 @@
+body {
+  background-color: rgb(255, 255, 224);
+  font-size: 15px;
+  font-family: "Times New Roman", Times, serif;
+}
+.title {
+  text-align: center;
+  color: rgb(215, 7, 0);
+}
+.italic {
+  font-style: italic;
+}
+h2 {
+  text-transform: uppercase;
+}
+.lightweigthtext {
+  font-weight: 100;
+  font-style: initial;
+}
