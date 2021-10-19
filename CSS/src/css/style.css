@@ -2,6 +2,7 @@
   box-sizing: border-box;
 }
 .box {
+  vertical-align: top;
   box-sizing: content-box;
   display: inline-block;
   background-color: red;
@@ -13,7 +14,7 @@
   border-color: black; or */
   border: 3px solid black;
   margin: 40px;
-  z-index: 5;
+  /* z-index: 5; */
 }
 .example {
   margin: 20px;
@@ -21,7 +22,6 @@
   position: relative;
 }
 .yellow {
-  position: absolute;
-  left: 120px;
+  /* position: absolute; */
   background-color: greenyellow;
 }
