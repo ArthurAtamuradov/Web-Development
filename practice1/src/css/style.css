@@ -71,7 +71,8 @@ h2 {
   font-family: "Roboto - Bold";
   font-weight: 700;
 }
-.first .first_button {
+.first .first_button,
+.fifth .fifth_button {
   display: block;
   margin: 0 auto;
   margin-top: 73px;
@@ -224,4 +225,87 @@ h2 {
   font-size: 17px;
   font-weight: 300;
   line-height: 20px;
+}
+.fifth {
+  min-height: 628px;
+  padding: 86px 0 87px 0;
+  background-color: #efefef;
+}
+.fifth .fifth_gift {
+  margin: 0 auto;
+  display: block;
+}
+.fifth .fifth_text {
+  margin-top: 42px;
+  color: #252525;
+  font-family: "Roboto";
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 43px;
+  text-align: center;
+}
+.fifth_button {
+  margin-top: 52px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  border: none;
+}
+.last {
+  min-height: 515px;
+  padding: 89px 0 64px 0;
+}
+.last .computer {
+  margin: 0 auto;
+  display: block;
+}
+.last .header {
+  margin-top: 37px;
+  color: #252525;
+  font-family: Roboto;
+  font-size: 30px;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.last .last_text {
+  margin-top: 25px;
+  color: #4a4a4a;
+  font-size: 23px;
+  font-weight: 400;
+  text-align: center;
+}
+.last .subheader_date {
+  margin-top: 30px;
+  color: #299cbd;
+  font-family: "Roboto - Black";
+  font-size: 36px;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: center;
+}
+footer {
+  min-height: 166px;
+  background-color: #1a1a1a;
+  padding: 61px 0 69px 0;
+}
+footer .info {
+  margin: 0 auto;
+  width: 377px;
+  text-align: center;
+  color: #888888;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 21px;
+}
+footer a {
+  color: #888888;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 21px;
+  text-decoration: none;
+}
+.underlined {
+  text-decoration: underline;
 }
