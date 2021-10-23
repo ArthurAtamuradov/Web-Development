@@ -114,13 +114,17 @@ h2 {
   background-color: #efefef;
   padding: 85px 0 75px 0;
 }
-.second .second_title {
+.second .second_title,
+.fourth .fourth_header {
   color: #252525;
   font-family: Roboto;
   font-size: 30px;
   font-weight: 400;
   text-transform: uppercase;
   text-align: center;
+}
+.fourth .fourth_header {
+  color: #ffffff;
 }
 .second .second_subtitle {
   margin-top: 17px;
@@ -130,7 +134,8 @@ h2 {
   font-weight: 400;
   text-align: center;
 }
-.second .second_divider {
+.second .second_divider,
+.fourth .fourth_divider {
   margin: 0 auto;
   width: 217px;
   background-color: #f9bf3b;
@@ -176,7 +181,7 @@ h2 {
   font-weight: 300;
 }
 .third .third_text span {
-  ont-family: "Roboto - Bold";
+  font-family: "Roboto - Bold";
   font-weight: 700;
 }
 .third .third_girl {
@@ -184,4 +189,39 @@ h2 {
   top: -54px;
   left: -240px;
   z-index: -1;
+}
+.fourth {
+  min-height: 401px;
+  background: url("../img/finish.jpg") center center/cover no-repeat;
+  padding: 86px 0 79px 0;
+}
+.fourth_wrapper {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.fourth_wrapper_item {
+  width: 204px;
+}
+.fourth_wrapper_item_icon {
+  height: 115px;
+  margin: 0 auto;
+  width: 115px;
+  background-color: lightblue;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fourth_wrapper_item_icon_img {
+  display: block;
+}
+.fourth_wrapper_item_text {
+  margin-top: 25px;
+  text-align: center;
+  color: #efefef;
+  font-family: Roboto;
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 20px;
 }
