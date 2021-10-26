@@ -3,10 +3,14 @@
 }
 header {
   position: relative;
+  height: 50px;
 }
 nav {
+  position: fixed;
   height: 50px;
   background-color: #212121;
+  z-index: 2;
+  width: 100%;
 }
 header .menu {
   list-style-type: none;
@@ -25,6 +29,7 @@ header .menu {
   padding-right: 28px;
 }
 .subheader {
+  top: 50px;
   position: absolute;
   width: 100%;
   height: 84px;
@@ -36,6 +41,11 @@ header .menu {
   display: block;
 }
 .subheader .subheader_text {
+  margin-top: 6px;
+  opacity: 0.5;
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: 400;
 }
 .subheader .subheader_call {
   color: white;
@@ -114,4 +124,56 @@ header .menu {
   font-size: 14px;
   font-weight: 400;
   text-transform: uppercase;
+}
+.advantages {
+  padding: 71px 0 65px 0;
+}
+.advantages .advantages_subheader {
+  margin: 0;
+  margin-top: 36px;
+  font-size: 30px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.advantages .advantages_label {
+  margin: 0 auto;
+  height: 24px;
+  width: 112px;
+  padding: 5px 12px;
+  background-color: #000000;
+  color: #ffffff;
+  font-size: 11px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+.advantages_item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 35px;
+}
+.advantages .item_circle {
+  display: flex;
+  width: 113px;
+  height: 113px;
+  justify-content: center;
+  align-items: center;
+  background-color: #1eacc7;
+  border-radius: 100%;
+  margin-right: 26px;
+}
+.advantages .item_descr {
+  width: 343px;
+}
+.advantages .item_title {
+  line-height: 21px;
+  color: #1eacc7;
+  font-size: 17px;
+  font-weight: 400;
+}
+.advantages .item_text {
+  color: #202020;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 21px;
 }
